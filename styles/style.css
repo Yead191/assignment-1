@@ -26,6 +26,7 @@ nav{
     cursor: pointer;
     font-size: 18px;
     font-weight: 600px;
+   
 }
 /* section-1 */
 main{
@@ -41,7 +42,8 @@ main{
     align-items: center;
     max-width: 998px;
     max-height: 581px;
-    padding: 26px 221px;
+    padding: 26px 25%;
+    margin-bottom: 74px;
 
 }
 .img{
@@ -52,14 +54,14 @@ main{
     font-size: 48px;
     font-weight: 600px;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 18px;
     line-height: 68px;
 
 }
 .head-subtitle{
     font-size: 16px;
     line-height: 26px;
-    margin-bottom: 32px;
+    margin-bottom: 18px;
 }
 
 .btn-contact{
@@ -71,6 +73,64 @@ main{
     font-size: 15px;
     font-weight: 400px;
     border-radius: 9px;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     font-family: "Azeret Mono";
+}
+
+
+/* section2 start */
+
+.web-container{
+    margin-top: 30px;
+    margin: 5% 18% 5% 15%;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 1200px;
+    padding: 80px 110px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.item-1 , .item-3{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 48px;
+
+}
+
+.item-1-info , .item-3-info {
+    max-width: 477px;
+}
+
+.item-1-title , .item-2-title, .item-3-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.item-1-subtitle , .item-2-subtitle , .item-3-subtitle{
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(13, 19, 33, 1);
+    font-weight: 300;
+}
+
+.btn-item{
+   padding: 12px 20px;
+   background-color: white;
+   font-family: "Azeret Mono";
+}
+
+.item-2{
+    margin-top: 32px;
+    display: flex;
+    text-align: left;
+    gap: 40px;
+    padding: 48px;
+    background-color: white;
+    border-radius: 20px;
 }
