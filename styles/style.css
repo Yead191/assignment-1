@@ -234,5 +234,71 @@ main{
     
 }
 
+/* section end  */
+
+.end{
+    justify-content: center;
+    text-align: center;
+    max-height: 313px;
+    max-width: auto;
+    margin: 5% 18% 5% 15%;
+    background-image: url(../assets/handshake.jpg);
+    align-items: center;   
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 64px 48px;
+    margin-bottom: 100px;
+
+}
+
+.end-title{
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 36px;
+    color: white;
+    margin-bottom: 16px;
 
 
+}
+
+.end-des{
+    font-family: "Azeret Mono";
+    color: white;
+    font-size: 16px;
+    font-weight: lighter ;
+    line-height: 26px;
+    margin-bottom: 24px;
+
+}
+
+.input-text{
+    border: none;
+    width: 548px;
+    height: 57px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 15px;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+
+}
+.btn-end{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 62px;
+    margin-left: 16px;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 900px;
+    padding: 17px 20px;
+    cursor: pointer;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+}
